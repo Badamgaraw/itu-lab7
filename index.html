@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+
     <title>Sample Website</title>
     <meta name="description" content="Discover the latest Apple products including iPhone, AirPods, Mac, and iPad. Shop now for exclusive deals and explore innovative features and accessories.">
     <link rel="stylesheet" href="styles.css">
@@ -11,10 +13,49 @@
 
     <meta property="og:title" content="Sample Website - Latest Apple Products">
     <meta property="og:description" content="Discover the latest Apple products including iPhone, AirPods, Mac, and iPad. Shop now for exclusive deals and explore innovative features and accessories.">
-    <meta property="og:image" content="https://badamgaraw.github.io/itu-lab7.github.io/images/sample-image.jpg"> <!-- Replace with your actual image URL -->
+    <meta property="og:image" content="https://badamgaraw.github.io/itu-lab7.github.io/iphone16.jpg">
     <meta property="og:url" content="https://badamgaraw.github.io/itu-lab7.github.io/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Sample Website">
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Your Company Name",
+          "url": "https://example.com",
+          "logo": "https://example.com/logo.png",
+          "sameAs": [
+            "https://www.facebook.com/yourprofile",
+            "https://www.twitter.com/yourprofile",
+            "https://www.instagram.com/yourprofile"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-800-555-1212",
+            "contactType": "Customer Service",
+            "areaServed": "US",
+            "availableLanguage": "English"
+          }
+        }
+        </script>
+    
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "url": "https://example.com",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://example.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+        </script>
+        <script>
+            if (window.location.host === 'www.badamgaraw.github.io') {
+               window.location.href = window.location.href.replace('www.', '');
+            }
+         </script>
 </head>
 
 <body>

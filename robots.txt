@@ -1,0 +1,11 @@
+# Allow all crawlers access to everything
+User-agent: *
+Disallow:
+
+# Block a specific crawler (e.g., Googlebot) from a specific directory
+# User-agent: Googlebot
+# Disallow: /private/
+
+# Block all crawlers from a specific directory
+# User-agent: *
+# Disallow: /temp/
