@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
 
-    <title>Sample Website</title>
+    <title>Shop Latest Apple Products | iPhone, iPad, Mac & Accessories</title>
     <meta name="description" content="Discover the latest Apple products including iPhone, AirPods, Mac, and iPad. Shop now for exclusive deals and explore innovative features and accessories.">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="styles.css"></noscript>
     <link rel="canonical" href="https://badamgaraw.github.io/itu-lab7.github.io/">
 
     <meta property="og:title" content="Sample Website - Latest Apple Products">
@@ -22,7 +23,7 @@
           "@context": "https://schema.org",
           "@type": "Organization",
           "name": "Your Company Name",
-          "url": "https://example.com",
+          "url": "https://badamgaraw.github.io/itu-lab7.github.io",
           "logo": "https://example.com/logo.png",
           "sameAs": [
             "https://www.facebook.com/yourprofile",
@@ -43,7 +44,7 @@
         {
           "@context": "https://schema.org",
           "@type": "WebSite",
-          "url": "https://example.com",
+          "url": "https://badamgaraw.github.io/itu-lab7.github.io",
           "potentialAction": {
             "@type": "SearchAction",
             "target": "https://example.com/search?q={search_term_string}",
@@ -53,7 +54,7 @@
         </script>
         <script>
             if (window.location.host === 'www.badamgaraw.github.io') {
-               window.location.href = window.location.href.replace('www.', '');
+                window.location.href = 'https://badamgaraw.github.io/itu-lab7.github.io/' + window.location.pathname;
             }
          </script>
 </head>
@@ -205,7 +206,7 @@
                     Use</a></p>
         </div>
     </footer>
-
+    <script src="script.js" defer></script>
 </body>
 
 </html>
