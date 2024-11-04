@@ -242,6 +242,21 @@ footer {
     padding-top: 10px;
     font-size: 14px;
 }
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #000; /* Change to your preferred color */
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #0073e6; /* Change to your preferred hover color */
+}
 
 @media screen and (max-width: 768px) {
     nav ul {
